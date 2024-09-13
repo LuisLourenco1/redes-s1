@@ -1,7 +1,7 @@
 # Você pode usar tudo que está definido neste arquivo na sua implementação de IP,
 # porém NÃO EDITE este arquivo. Se você editá-lo, ele será ignorado pelo robô de
 # correção do Autolab, pois os testes dependem das definições aqui realizadas.
- 
+
 import struct
 # Funções que foram usadas no TCP e também são úteis
 # para a implementação do protocolo IP

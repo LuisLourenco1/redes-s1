@@ -2,7 +2,7 @@ from iputils import *
 import struct
 import ipaddress
 
- 
+
 class IP:
     def __init__(self, enlace):
         """

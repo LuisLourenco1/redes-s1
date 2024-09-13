@@ -6,7 +6,7 @@ from ip import IP               # copie o arquivo do T3
 from slip import CamadaEnlace   # copie o arquivo do T4
 
 import re
- 
+
 ## Implementação da camada de aplicação
 
 def validar_nome(nome):
