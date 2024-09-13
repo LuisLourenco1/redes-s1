@@ -87,7 +87,7 @@ class IP:
                 return
     
             # Monta o cabeçalho IP com o TTL decrementado
-            cabecalho = self.montar_cabecalho(20 + len(datagrama), ttl, 6, src_addr, dst_addr)
+            cabecalho = self.montar_cabecalho(len(datagrama), ttl, 6, src_addr, dst_addr)
             
             # Monta o datagrama com o cabeçalho IP e o payload
             datagrama = cabecalho + payload
