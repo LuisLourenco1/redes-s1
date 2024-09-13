@@ -1,7 +1,7 @@
 # Você pode usar tudo que está definido neste arquivo na sua implementação de TCP,
 # porém NÃO EDITE este arquivo. Se você editá-lo, ele será ignorado pelo robô de
 # correção do Autolab, pois os testes dependem das definições aqui realizadas.
- 
+
 import struct
 
 # Valores das flags que serão usadas na nossa implementação simplificada
@@ -88,6 +88,5 @@ def str2addr(addr):
     Converte uma string (no formato x.y.z.w) para um endereço IPv4 binário
     """
     return bytes(int(x) for x in addr.split('.'))
-
 
 
